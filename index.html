@@ -51,21 +51,16 @@
           </li>
         </ul>
       </address>
-      <button type="button" class="mobile-menu-open"js-open-menu>
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="mobile-menu-open-icon" width="32" height="22">
           <use href="./images/icons.svg#burger-icon"></use>
         </svg>
-       </button>
+      </button>
+
     </div>
-<div class="mobile-menu"js-menu-container>
-  <div class="container mobile-menu-container">
-    <button class="mobile-menu_close-menu"js-close-menu>
-    <svg class="mobile-menu_close-icon"width="8" height="8" >
-      <use href="./images/icons.svg#icon-close"></use>
-    </svg>
-    </button>
-    <nav class="mobile-nav">
-  <ul class="mobile-list list">
+
+
+    <!-- <ul class="mobile-list list">
     <li class="mobile-item-list">
       <a class="mobile-link link" href="./index.html">Studio</a>
     </li>
@@ -76,7 +71,6 @@
       <a class="mobile-link link" href="">Contacts</a>
     </li>
   </ul>
-</nav>
   <ul class=" list">
     <li class="-item">
       <a class="link" href="tel:+110001111111">
@@ -121,9 +115,10 @@
       </li>
     </ul>
   </div>
-  </div>
-</div>
+  </div> -->
+    </div>
   </header>
+
   <main>
     <!-- Hero section -->
     <section class="hero">
@@ -134,7 +129,7 @@
     </section>
 
     <!-- Objectives section -->
-    <section class="section objectives-section">
+    <section class="section">
       <div class="container">
         <h2 class="section-title visually-hidden">Objectives</h2>
         <ul class="goal list">
@@ -190,7 +185,7 @@
       </div>
     </section>
     <!--Devices section -->
-     <section class="section devices-section">
+    <section class="section devices-section">
       <div class="container">
         <h2 class="section-title">What are we doing</h2>
         <ul class="devices list">
@@ -206,8 +201,8 @@
         </ul>
       </div>
     </section>
-   <!-- Team section-->
-      <section class="section team-section">
+    <!-- Team section-->
+    <section class="section team-section">
       <div class="container team-container">
         <h2 class="section-title team-title">Our Team</h2>
         <ul class="team list">
@@ -363,7 +358,7 @@
       </div>
     </section>
     <!-- Customers section -->
-     <section class="section customers-section">
+    <section class="section customers-section">
       <div class="container customers-container">
         <h2 class="customers-title">Customers</h2>
         <ul class="customers-list list">
@@ -412,7 +407,7 @@
         </ul>
       </div>
     </section>
-  </main> 
+  </main>
   <!-- Footer -->
   <!-- <footer class="page-footer">
     <div class="container footer-container-content">
@@ -470,8 +465,8 @@
         </form>
       </div>
     </div>
-  </footer>
-  <div class="backdrop is-hidden" data-modal>
+  </footer> -->
+  <!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-close-btn" data-modal-close>
         <svg class="modal-close-icon" width="8" height="8">
@@ -525,14 +520,12 @@
           <button type="submit" class="modal-form-submit">Send</button>
       </form>
     </div>
-  </div>
-  <script src="./js/modal.js"></script> -->
-  <script
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-  crossorigin="anonymous"
-></script>
-<script defer src="./js/mobile.js"></script>
+  </div> -->
+  <script src="./js/modal.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="./js/mobile.js"></script>
 </body>
+
 </html>
